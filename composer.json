@@ -1,0 +1,18 @@
+{
+    "name": "ossinkichi/financeiro",
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Junior | OssinKichi",
+            "email": "carljunin07@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.10"
+    }
+}
