@@ -1,11 +1,16 @@
 <?php
 namespace app\controllers;
 
-class HomeController{
+use app\controllers\Container;
+use app\controllers\ControllerInterface;
+
+class HomeController extends Container implements ControllerInterface{
 
     public function index()
     {
-        vd('home');
+        $this->view([
+            "title" => 'Cobranças Ossin'
+        ],'home');
     }
 
 }

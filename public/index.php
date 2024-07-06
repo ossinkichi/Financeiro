@@ -9,6 +9,7 @@ use core\Paramether;
 
 try
 {
+    session_start();
 
     $controller = new Controller;
     $controller = $controller->load();
